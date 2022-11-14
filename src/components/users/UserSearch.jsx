@@ -1,3 +1,4 @@
+import {FaArrowAltCircleRight} from 'react-icons/fa';
 import { useState, useContext } from "react";
 import GithubContext from "../../context/github/GithubContext"
 import AlertContext from "../../context/alert/AlertContext";
@@ -41,8 +42,9 @@ const UserSearch = () => {
                 type="submit"
                 className="btn btn-lg absolute top-0 right-0 rounded-l-none w-36"
               >
-                Go
+                <FaArrowAltCircleRight style={{fontSize: '2rem'}}/>
               </button>
+              
             </div>
           </div>
         </form>
